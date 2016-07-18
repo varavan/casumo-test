@@ -1,0 +1,20 @@
+# Group Book
+
+Provides an interface to query a collection of 1000 books.
+Sortable by book name, book author
+Filtrable by book genre and author gender
+
+
+## books [/books/{page}]
+
++ Parameters
+    + page: 1 (number, required) - number for pagination
+    + sort: name, author (string, optional) - used for sorting purposes
+    + genre: Adventures (string, optional) - book genre for filter
+    + author.gender: Horror(string, optional) - autor genderfor filter
+
+## Get Books [GET]
+
++ Response 200 (application/json)
+
+    + Attributes (array[Book,Book-2,Book-3,Book-4,Book-5,Book-6,Book-7,Book,Book-2,Book-3,Book-4,Book-5,Book-6,Book-7,Book,Book-2,Book-3,Book-4,Book-5,Book-6,Book-7,Book,Book-1,Book-2,Book-3])
