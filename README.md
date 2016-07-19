@@ -13,8 +13,8 @@ node version: `v4.4.5`
 
 The use case says `Display a scrollable list of all one million books`. I think this is out of the scope because a list 
 1Mi elements printed raw on the DOM would make the app innaccesible for some devices due to the requirements to work
-within this list (filter, sort .. etc ). The solution is to implement [infinite scrolling](https://www.npmjs.com/package/angular2-infinite-scroll)
-which I think is overengineering this app.
+within this list (filter, sort .. etc ). The solution is either to implement [infinite scrolling](https://www.npmjs.com/package/angular2-infinite-scroll)
+which I think is overengineering this app, or using pagination which is the solution I choosed
  
 So the solution is to provide a server which is able to perform this actions on a stable time ( improving end user experience)
 As long as the test is for frontend Developer, I did not implemented any rocket science as backend but just wrote a small
@@ -47,6 +47,13 @@ you can also see the API contract reference on `docs/dist/latest.html` after run
 
 This will start a web dev server on `http://localhost:8080/` . Remember to start first mock server, without changing domain or port because it is hardcoded on application.
 
+## Out of the scope due to time limitation
+
++ dev ops infrastructure with docker, so no need to have node
++ implement infinite scrolling instead of pagination
++ deep check on scalfolding configurations
++ align blueprint document with backend team
++ improve test coverage
 
 ## Troubleshooting
 
