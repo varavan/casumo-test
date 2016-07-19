@@ -17,7 +17,8 @@ import '../style/app.scss';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  url = 'https://github.com/preboot/angular2-webpack';
+
+  author = 'Ivan Ruiz <ivan.ruiz.delatorre@gmail.com>';
 
   constructor(private api: ApiService) {
   }

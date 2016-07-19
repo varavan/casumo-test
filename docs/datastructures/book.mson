@@ -1,41 +1,41 @@
 ## Book
 + name: Ana Gotzer (string)
 + author (Author)
-+ genre: 'Horror'
-+ publishAt: '2010-10-02'
++ genre: Horror (string)
++ publishedAt: 2010-10-02 (string)
 
 ## Book-2
 + name: I was not (string)
 + author (Author-2)
-+ genre: 'Comedi'
-+ publishAt: '2011-11-11'
++ genre: Comedy (string)
++ publishedAt: 2011-11-11 (string)
 
 ## Book-3
 + name: Who is next ? (string)
 + author (Author-3)
-+ genre: 'Drama'
-+ publishAt: '2001-01-05'
++ genre: Drama (string)
++ publishedAt: 2001-01-05 (string)
 
 ## Book-4
 + name: Big Big Number (string)
 + author (Author-4)
-+ genre: 'Historical'
-+ publishAt: '2015-08-17'
++ genre: Historical (string)
++ publishedAt: 2015-08-17 (string)
 
 ## Book-5
 + name:  My car is unstolen (string)
 + author (Author-5)
-+ genre: 'Cars'
-+ publishAt: '2010-12-24'
++ genre: Cars (string)
++ publishedAt: 2010-12-24 (string)
 
 ## Book-6
 + name: November in love (string)
 + author (Author-6)
-+ genre: 'Romantic'
-+ publishAt: '2014-11-12'
++ genre: Romantic (string)
++ publishedAt: 2014-11-12 (string)
 
 ## Book-7
 + name: Histories of wonderland (string)
 + author (Author-7)
-+ genre: 'Adventures'
-+ publishAt: '2008-08-02'
++ genre: Adventures (string)
++ publishedAt: 2008-08-02 (string)

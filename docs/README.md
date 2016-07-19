@@ -1,6 +1,7 @@
-# API Blueprint document for Caravelo test implementation of Markey Survey
+# API Blueprint document for Casumo Frontend Test
 
-Documentation ApiDoc following [Blueprint API](https://github.com/apiaryio/api-blueprint). Build and see the output html for full experience
+Documentation ApiDoc following [Blueprint API](https://github.com/apiaryio/api-blueprint). 
+Build and see the output html for full experience
 
 ## how to build documentation
 

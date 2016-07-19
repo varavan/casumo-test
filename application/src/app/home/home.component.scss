@@ -1,4 +1,17 @@
 // component styles are encapsulated and only applied to their components
 * {
-  color: #FFEF00;
+  color: black;
+}
+
+a.disabled {
+
+  background-color: grey;
+}
+
+a:hover.disabled {
+  background-color: grey;
+}
+
+a:active.disabled {
+  background-color: grey;
 }
