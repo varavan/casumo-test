@@ -1,6 +1,4 @@
-# Casumo JS Test
-
-This document is meant for providing an easy entry point for casumo JS test.
+# JS Test
 
 ## Technologies
 
